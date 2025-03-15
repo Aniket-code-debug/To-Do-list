@@ -3,7 +3,7 @@ import axios from "axios";
 import AuthContext from "../context/AuthContext";
 import "../App.css";
 
-const API_URL = "http://192.168.29.150:5000/api/todos";
+const API_URL = "http://192.168.29.149:5000/api/todos";
 
 
 export default function TodoApp() {

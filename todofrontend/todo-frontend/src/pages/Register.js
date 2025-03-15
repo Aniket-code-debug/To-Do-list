@@ -11,7 +11,7 @@ export default function Register() {
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
 
-  const API_URL = "http://192.168.29.150:5000";
+  const API_URL = "http://192.168.29.149:5000";
   useEffect(() => {
     if (localStorage.getItem("darkMode") === "enabled") {
       document.body.classList.add("dark");
